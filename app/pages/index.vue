@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// Page meta
 definePageMeta({
   title: '3D Interactive Keyboard Demo',
   description: 'Experience an interactive 3D keyboard with wave animations'
@@ -11,7 +10,6 @@ useSeoMeta({
   ogTitle: '3D Interactive Keyboard',
   description: 'Interactive 3D keyboard with beautiful wave animations built with Nuxt 4, GSAP, and Tailwind CSS',
   ogDescription: 'Experience smooth 3D animations and wave effects on a virtual keyboard',
-  ogImage: '/keyboard-preview.jpg', // Add your preview image
   twitterCard: 'summary_large_image'
 })
 
