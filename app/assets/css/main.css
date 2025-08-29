@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply antialiased;
+    background: #0a0a0a;
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  .keyboard-3d {
+    transform-style: preserve-3d;
+    perspective: 1200px;
+  }
+  .key-button {
+  @apply w-12 h-12;
+}
+  .key-3d {
+    transform-style: preserve-3d;
+    transition: transform 100ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .wave-effect {
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer utilities {
+  .perspective-1200 {
+    perspective: 1200px;
+  }
+  
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+}
