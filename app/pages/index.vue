@@ -54,7 +54,7 @@ onMounted(() => {
       <Keyboard3D />
       <!-- Instructions Panel -->
       <div class="fixed top-4 left-4 bg-black/80 backdrop-blur-sm rounded-xl p-6 text-white max-w-md text-white">
-        <h2 class="text-xl font-bold mb-4 text-white">🎹 Interactive 3D Keyboard</h2>
+        <h2 class="text-xl font-bold mb-4 text-white">Interactive 3D Keyboard</h2>
         
         <div class="space-y-3 text-sm">
           <div class="flex items-center space-x-3">
@@ -86,33 +86,6 @@ onMounted(() => {
             <div class="w-4 h-4 bg-purple-500 rounded"></div>
             <span>Press <kbd class="bg-zinc-700 px-2 py-1 rounded">Win</kbd> - Purple wave</span>
           </div>
-          
-          <div class="mt-4 pt-4 border-t border-zinc-600">
-            <div class="flex items-center space-x-2 mb-2">
-              <span>🎮</span>
-              <span class="font-semibold">Rotation Controls:</span>
-            </div>
-            <div class="grid grid-cols-2 gap-2 text-xs">
-              <span>Arrow Keys = 3D Rotation</span>
-              <span>CapsLock = Enable Macros</span>
-              <span>Click Colors = Wave Effect</span>
-              <span>Any Key = Press Animation</span>
-            </div>
-          </div>
-          
-          <div class="mt-4 pt-4 border-t border-zinc-600">
-            <div class="flex items-center space-x-2 mb-2">
-              <span>✨</span>
-              <span class="font-semibold">Features:</span>
-            </div>
-            <ul class="text-xs space-y-1 list-disc list-inside ml-4">
-              <li>Real-time wave propagation</li>
-              <li>3D perspective with depth</li>
-              <li>GSAP smooth animations</li>
-              <li>Responsive key feedback</li>
-              <li>Color-coded macro system</li>
-            </ul>
-          </div>
         </div>
       </div>
       
@@ -124,7 +97,8 @@ onMounted(() => {
             <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
           </div>
           <div class="text-xs text-zinc-400">
-            Built with Nuxt 4 + GSAP + Tailwind
+            Built with Nuxt 4 + GSAP + Tailwind <br>
+            <span class="text-teal-500"><NuxtLink to="https://elvin.vercel.app/" target="_blank">By Elvin Code</NuxtLink></span>
           </div>
         </div>
       </div>
